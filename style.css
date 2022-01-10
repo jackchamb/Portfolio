@@ -1,0 +1,123 @@
+.hero {
+    background-color: #1c1d25;
+    height: 40px;
+    color: white;
+    font-size: 40px;
+    padding: 80px;  
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    float: right;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.subtitle {
+    font-size: 30px;
+}
+
+h3{
+    font-size: 20px;
+    color: white;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+li {
+    text-decoration-line: underline;
+    margin-right: 10px;
+
+}
+
+section{
+    background-color: rgb(14, 53, 67);
+    height: 200px;
+}
+
+.middle{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.lowermiddle{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+    height: 500px;
+}
+
+.me {
+    width: 250px;
+    border-radius: 50px;
+}
+
+.info {
+    color: white;
+    margin-left: 20px;
+    padding: 40px;
+}
+
+.subone {
+    font-size: 15px;
+    color: white;
+    
+}
+
+.pic {
+    display: flex;
+    align-items: center;
+}
+
+.C1 {
+     width: 300px;
+     
+}
+
+.first {
+    width: 300px;
+    height: 400px;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+}
+
+.proj{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 200px) {
+    .proj {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.Contact {
+    color: white;
+    margin-left: 20px;
+    padding: 40px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background-color: rgb(14, 53, 67);
+    height: 100px;
+    text-align: center;
+    padding: 40px;
+}
